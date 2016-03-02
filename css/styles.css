@@ -147,7 +147,7 @@ noscript,#avisocookies{
     z-index: 2;
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 600px) {
     #tituloindex{
         position: relative;
         width:100%;
