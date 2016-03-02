@@ -1,0 +1,53 @@
+#SpriteImagenesCasa{
+    width: 100%;
+    display: block;
+}
+.jcarousel-wrapper{
+    position: relative;
+
+}
+#reserva{
+    width: 7em;
+    background: rgba(47,156,37,0.7);
+    position: absolute;
+    right: 40%;
+    top:40%;
+    z-index: 2;
+    font-size: larger;
+    text-align: center;
+    padding: 1em;
+}
+#reserva a{
+    text-decoration: none;
+    color: white;
+}
+#info{
+    width: 100%;
+    Background: rgba(204,171,59,0.5);
+}
+#info p{
+    width: 100%;
+    line-height: 2em;
+    font-size: x-large;
+    border-bottom: 1px solid rgba(204,171,59,0.7);
+}
+#maps{
+    width:100%;
+    Background: rgba(204,171,59,0.5);
+}
+#maps iframe{
+width: 100%;
+}
+@media screen and (min-width: 550px){
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    #info{
+        width: 70%;
+    }
+    #maps{
+        width: 30%;
+    }
+}
