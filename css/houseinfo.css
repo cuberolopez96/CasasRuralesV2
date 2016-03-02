@@ -1,6 +1,7 @@
 #SpriteImagenesCasa{
     width: 100%;
     display: block;
+    margin: 1em auto;
 }
 .jcarousel-wrapper{
     position: relative;
@@ -10,8 +11,8 @@
     width: 7em;
     background: rgba(47,156,37,0.7);
     position: absolute;
-    right: 40%;
-    top:40%;
+    right: 30%;
+    top:15%;
     z-index: 2;
     font-size: larger;
     text-align: center;
@@ -38,6 +39,31 @@
 #maps iframe{
 width: 100%;
 }
+#imagenes{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+#imagenes #casa{
+    display: none;
+    width: 50%;
+    height: 30em;
+}
+#imagenes .imageneschicas{
+    width: 100%;
+    max-height: 30em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+}
+#imagenes .imageneschicas img{
+    width: 50%;
+}
+
+
 @media screen and (min-width: 550px){
     main{
         display: flex;
@@ -49,5 +75,39 @@ width: 100%;
     }
     #maps{
         width: 30%;
+    }
+    #SpriteImagenesCasa{
+        width: 90%;
+        display: block;
+        margin: 1em auto;
+    }
+    #reserva{
+        top:45%;
+        right: 40%;
+    }
+    #imagenes{
+
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        box-shadow: 0 0 10px 1em rgba(0,0,0,0.5);
+
+    }
+    #imagenes #casa{
+        display: block;
+        width: 50%;
+        height: 30em;
+    }
+    #imagenes .imageneschicas{
+        width: 50%;
+        max-height: 30em;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:column;
+    }
+    #imagenes .imageneschicas img{
+        width: 100%;
+        height: 50%;
     }
 }
