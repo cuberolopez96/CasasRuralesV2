@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>Reservas</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="js/jquery-ui-1.11.4.custom/jquery-ui.min.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="js/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+    <script src="bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="bower_components/jquery.cookie/jquery.cookie.js"></script>
+    <script src="js/reserve.js"></script>
+</head>
+<body>
+<header id="tituloreserva">
+    <h1>Reservas</h1>
+</header>
+<main>
+    <div id="formulario">
+        <form action="" id="form">
+            <label for="nombre" class="tag">Nombre</label><input id="nombre" type="text" name="nombre"><br>
+            <label for="apellidos" class="tag">Apellidos</label><input id="apellidos" type="text" name="apellidos"><br>
+            <label for="correo" class="tag">Correo</label><input id="correo" type="text" name="email"><br>
+            <label for="from" class="tag">From</label>
+            <input type="text" id="from" name="entrada"><br>
+            <label for="to" class="tag">to</label>
+            <input type="text" id="to" name="salida"><br>
+            <label for="telefono" class="tag">Telefono</label><input id="telefono" type="text" name="telefono"><br>
+            <label for="npersonas" class="tag">Numero de personas</label><input type="number" id="npersonas" name="npersonas"><br>
+             <input id="aceptar" type="checkbox" name="check" > <label for="aceptar" class="aceptar">Acepta la condiciones</label><br>
+
+            <input type="submit" id="reservar" name="reservar" value="reservar"><br>
+
+        </form>
+    </div>
+
+</main>
+
+</body>
+</html>

@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <title>Casas Rurales</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <link rel="stylesheet" href="bower_components/lightbox2/dist/css/lightbox.min.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="js/index.js"></script>
 </head>
 <body>
+<noscript>Su Javascript esta desactivado</noscript>
+<div id="avisocookies">Las cookies estan desactivadas</div>
 <header id="tituloindex">
 
     <video id="videopresentacion" src="videos/cabecera.mp4" autoplay loop></video>
@@ -20,93 +23,135 @@
             <input type="text" id="textobusqueda"><input type="submit" id="buscar">
         </form>
     </div>
-    <section>
+    <section class = "image-set">
         <article class="casas">
             <div class="imagencasa">
-                <img src="img/casa1.jpg" alt="">
+                <a class = "image-lightbox"href="img/casa1.jpg" data-lightbox="image-1" data-title="My caption">
+                    <img src="img/casa1.jpg" alt=""></a>
+                <a class = "image-lightbox siguiente"href="img/casa1.jpg" data-lightbox="image-1" data-title="My caption">
+                    <img src="img/casa1.jpg" alt=""></a>
+                <a class = "image-lightbox siguiente"href="img/casa1.jpg" data-lightbox="image-1" data-title="My caption">
+                    <img src="img/casa1.jpg" alt=""></a>
             </div>
             <div class="descripcioncasa">
                 <div class="texto">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam at enim est eum explicabo illum maiores molestiae, </p>
+                    <p class = "nombreCasa"><strong>Casa:</strong> Casa 1</p>
+                    <p><strong>Localidad:</strong> Cordoba</p>
+                    <p><strong>Precio:</strong> 23</p>
                 </div>
                 <div class="enlace">
-                    <a href="#">mas informacion</a>
+                    <a href="houseinfo.html">mas informacion</a>
                 </div>
             </div>
 
         </article>
         <article class="casas">
             <div class="imagencasa">
-                <img src="img/casa1.jpg" alt="">
+                <a class = "image-lightbox"href="img/casa1.jpg" data-lightbox="image-2" data-title="My caption">
+                    <img src="img/casa1.jpg" alt=""></a>
+                <a class = "image-lightbox siguiente"href="img/casa1.jpg" data-lightbox="image-2" data-title="My caption">
+                    <img src="img/casa1.jpg" alt=""></a>
+                <a class = "image-lightbox siguiente"href="img/casa1.jpg" data-lightbox="image-2" data-title="My caption">
+                    <img src="img/casa1.jpg" alt=""></a>
             </div>
             <div class="descripcioncasa">
                 <div class="texto">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam at enim est eum explicabo illum maiores molestiae, </p>
+                    <p class = "nombreCasa"><strong>Casa:</strong> Casa 2</p>
+                    <p><strong>Localidad:</strong> Cordoba</p>
+                    <p><strong>Precio:</strong>23</p>
                 </div>
                 <div class="enlace">
-                    <a href="#">mas informacion</a>
+                    <a href="houseinfo.html">mas informacion</a>
                 </div>
             </div>
 
         </article>
         <article class="casas">
             <div class="imagencasa">
-                <img src="img/casa1.jpg" alt="">
+                <a class = "image-lightbox"href="img/casa1.jpg" data-lightbox="image-3" data-title="My caption">
+                    <img src="img/casa1.jpg" alt=""></a>
+                <a class = "image-lightbox siguiente"href="img/casa1.jpg" data-lightbox="image-3" data-title="My caption">
+                    <img src="img/casa1.jpg" alt=""></a>
+                <a class = "image-lightbox siguiente"href="img/casa1.jpg" data-lightbox="image-3" data-title="My caption">
+                    <img src="img/casa1.jpg" alt=""></a>
             </div>
             <div class="descripcioncasa">
                 <div class="texto">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam at enim est eum explicabo illum maiores molestiae, </p>
+                    <p class = "nombreCasa"><strong>Casa:</strong> Casa 3</p>
+                    <p><strong>Localidad:</strong> Cordoba</p>
+                    <p><strong>Precio:</strong>23</p>
                 </div>
                 <div class="enlace">
-                    <a href="#">mas informacion</a>
+                    <a href="houseinfo.html">mas informacion</a>
                 </div>
             </div>
 
         </article>
         <article class="casas">
             <div class="imagencasa">
-                <img src="img/casa1.jpg" alt="">
+                <a class = "image-lightbox"href="img/casa1.jpg" data-lightbox="image-4" data-title="My caption">
+                    <img src="img/casa1.jpg" alt=""></a>
+                <a class = "image-lightbox siguiente"href="img/casa1.jpg" data-lightbox="image-4" data-title="My caption">
+                    <img src="img/casa1.jpg" alt=""></a>
+                <a class = "image-lightbox siguiente"href="img/casa1.jpg" data-lightbox="image-4" data-title="My caption">
+                    <img src="img/casa1.jpg" alt=""></a>
             </div>
             <div class="descripcioncasa">
                 <div class="texto">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam at enim est eum explicabo illum maiores molestiae, </p>
+                    <p class = "nombreCasa"><strong>Casa:</strong> Casa 4</p>
+                    <p><strong>Localidad:</strong> Cordoba</p>
+                    <p><strong>Precio:</strong> 23</p>
                 </div>
                 <div class="enlace">
-                    <a href="#">mas informacion</a>
+                    <a href="houseinfo.html">mas informacion</a>
                 </div>
             </div>
 
         </article>
         <article class="casas">
             <div class="imagencasa">
-                <img src="img/casa1.jpg" alt="">
+                <a class = "image-lightbox"href="img/casa1.jpg" data-lightbox="image-5" data-title="My caption">
+                    <img src="img/casa1.jpg" alt=""></a>
+                <a class = "image-lightbox siguiente"href="img/casa1.jpg" data-lightbox="image-5" data-title="My caption">
+                    <img src="img/casa1.jpg" alt=""></a>
+                <a class = "image-lightbox siguiente"href="img/casa1.jpg" data-lightbox="image-5" data-title="My caption">
+                    <img src="img/casa1.jpg" alt=""></a>
             </div>
             <div class="descripcioncasa">
                 <div class="texto">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam at enim est eum explicabo illum maiores molestiae, </p>
+                    <p class = "nombreCasa"><strong>Casa:</strong>Casa 5</p>
+                    <p><strong>Localidad:</strong> Cordoba</p>
+                    <p><strong>Precio:</strong> 23</p>
                 </div>
                 <div class="enlace">
-                    <a href="#">mas informacion</a>
+                    <a href="houseinfo.html">mas informacion</a>
                 </div>
             </div>
 
         </article>
         <article class="casas">
             <div class="imagencasa">
-                <img src="img/casa1.jpg" alt="">
+                <a class = "image-lightbox"href="img/casa1.jpg" data-lightbox="image-6" data-title="My caption">
+                    <img src="img/casa1.jpg" alt=""></a>
+                <a class = "image-lightbox siguiente"href="img/casa1.jpg" data-lightbox="image-6" data-title="My caption">
+                    <img src="img/casa1.jpg" alt=""></a>
+                <a class = "image-lightbox siguiente"href="img/casa1.jpg" data-lightbox="image-6" data-title="My caption">
+                    <img src="img/casa1.jpg" alt=""></a>
             </div>
             <div class="descripcioncasa">
                 <div class="texto">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam at enim est eum explicabo illum maiores molestiae, </p>
+                    <p class="NombreCasa"><strong>Casa:</strong> Casa 6</p>
+                    <p><strong>Localidad:</strong> Cordoba</p>
+                    <p><strong>Precio:</strong> 23</p>
                 </div>
                 <div class="enlace">
-                    <a href="#">mas informacion</a>
+                    <a href="houseinfo.html">mas informacion</a>
                 </div>
             </div>
 
         </article>
     </section>
 </main>
-
+<script src="bower_components/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
 </body>
 </html>
