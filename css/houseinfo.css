@@ -2,17 +2,18 @@
     width: 100%;
     display: block;
     margin: 1em auto;
+    position: relative;
 }
 .jcarousel-wrapper{
     position: relative;
 
 }
 #reserva{
-    width: 7em;
+    width: 50%;
     background: rgba(47,156,37,0.7);
     position: absolute;
-    right: 50%;
-    top:50%;
+    left: 20%;
+    top:25%;
     z-index: 2;
     font-size: larger;
     text-align: center;
@@ -40,7 +41,6 @@
 width: 100%;
 }
 #imagenes{
-    position: relative;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +82,7 @@ width: 100%;
         margin: 1em auto;
     }
     #reserva{
-        top:25%;
+        top:45%;
         right: 45%;
     }
     #imagenes{
